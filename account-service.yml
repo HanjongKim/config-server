@@ -1,25 +1,31 @@
-gretting: acccount
+devguide: 
+  gretting: acccount
 
 ---
 
 spring: 
   profiles: local 
-gretting: "로컬환경입니다."
+
+devguide: 
+  gretting: "로컬환경입니다."
 
 ---
 
 spring: 
   profiles: dev
-gretting: "개발 환경입니다."
+devguide: 
+  gretting: "개발 환경입니다."
 
 ---
 
 spring: 
   profiles: stage
-gretting: "스테이징 환경입니다."
+devguide: 
+  gretting: "스테이징 환경입니다."
 
 ---
 
 spring: 
   profiles: product
-gretting: "상용 환경입니다."
+devguide: 
+  gretting: "상용 환경입니다."
