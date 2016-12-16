@@ -1,5 +1,5 @@
 devguide: 
-  gretting: acccount
+  greeting: acccount
 
 ---
 
@@ -7,25 +7,25 @@ spring:
   profiles: local 
 
 devguide: 
-  gretting: "변경된 로컬환경입니다."
+  greeting: "변경된 로컬환경입니다."
 
 ---
 
 spring: 
   profiles: dev
 devguide: 
-  gretting: "개발 환경입니다."
+  greeting: "개발 환경입니다."
 
 ---
 
 spring: 
   profiles: stage
 devguide: 
-  gretting: "스테이징 환경입니다."
+  greeting: "스테이징 환경입니다."
 
 ---
 
 spring: 
   profiles: product
 devguide: 
-  gretting: "상용 환경입니다."
+  greeting: "상용 환경입니다."
